@@ -51,6 +51,9 @@ class Person {
             return this->gender;
         }
 
+        // Pure virtual function to show details
+        virtual void showDetails() = 0;
+
         ~Person(){
         }
 };
