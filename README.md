@@ -3,8 +3,7 @@
 Saya Farah Maulida dengan NIM 2410024 mengerjakan Tugas Praktikum 3 dalam mata kuliah Desain dan Pemrograman Berbasis Objek untuk keberkahan-Nya maka saya tidak akan melakukan kecurangan seperti yang telah di spesifikasikan Aamiin.
 
 # Diagram
-<img width="881" height="584" alt="DPBO-TP3_DPBO24C2 drawio (1)" src="https://github.com/user-attachments/assets/9cf4f8da-a1c4-4571-b1ac-9ad90d82d937" />
-
+<img width="881" height="584" alt="DPBO-TP3_DPBO24C2 drawio (2)" src="https://github.com/user-attachments/assets/daea10a6-0e7b-4b65-8186-62376039a61c" />
 
 Pada tugas praktikum ini, saya membuat sebuah sistem informasi untuk sebuah toko yang menjual barang berupa album fisik dari suatu grup KPOP. Gambar di atas merupakan diagram yang menggambarkan struktur dari keseluruh sistem yang dibuat dengan menggunakan konsep pemrograman berorientasi objek untuk mendefinisikan class dan hubungannya.
 
