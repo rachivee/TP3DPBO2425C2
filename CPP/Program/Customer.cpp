@@ -53,7 +53,7 @@ class Customer : public Person {
         }
         
         // For printing customer details
-        void printCustomer() {
+        void showDetails() override {
             cout << getcustomerId() << "\t" << gethandphoneNumber() << "\t" << getName() << "\t" << getAge() << "\t" << getfavoriteGroup() << endl;
         }
 };
