@@ -3,14 +3,15 @@
 Saya Farah Maulida dengan NIM 2410024 mengerjakan Tugas Praktikum 3 dalam mata kuliah Desain dan Pemrograman Berbasis Objek untuk keberkahan-Nya maka saya tidak akan melakukan kecurangan seperti yang telah di spesifikasikan Aamiin.
 
 # Diagram
-<img width="882" height="584" alt="DPBO-TP3_DPBO24C2 drawio" src="https://github.com/user-attachments/assets/5ef6f202-526f-452b-ab5b-c7ee74a713f4" />
+<img width="881" height="584" alt="DPBO-TP3_DPBO24C2 drawio (1)" src="https://github.com/user-attachments/assets/9cf4f8da-a1c4-4571-b1ac-9ad90d82d937" />
+
 
 Pada tugas praktikum ini, saya membuat sebuah sistem informasi untuk sebuah toko yang menjual barang berupa album fisik dari suatu grup KPOP. Gambar di atas merupakan diagram yang menggambarkan struktur dari keseluruh sistem yang dibuat dengan menggunakan konsep pemrograman berorientasi objek untuk mendefinisikan class dan hubungannya.
 
 1. Person
-   Kelas ini merupakan superclass yang memiliki 3 atribut yaitu name (nama), age (umur), dan gender (jenis kelamin) disertai dengan metode konstruktor untuk membuat objek baru, setter dan getter untuk mengatur dan mengambil nilai atribut.
+   Kelas ini merupakan superclass yang memiliki 3 atribut yaitu name (nama), age (umur), dan gender (jenis kelamin) disertai dengan metode konstruktor untuk membuat objek baru, setter dan getter untuk mengatur dan mengambil nilai atribut, lalu terdapat showDetails yang membuat kelas ini merupakan abstract class.
 2. Employee
-   Kelas ini merupakan anak yang mewarisi sifat dari kelas Person yang artinya Employee memiliki atribut yang dimiliki Person dengan ditambahkan atributnya sendiri yaitu employeeId (ID Pegawai) dan position (posisi dalam pekerjaan). Seperti kelas sebelumnya, kelas ini juga memiliki metode konstruktor, setter, dan getter, lalu ditambah dengan printEmployee untuk menampilkan data pegawainya.
+   Kelas ini merupakan anak yang mewarisi sifat dari kelas Person yang artinya Employee memiliki atribut yang dimiliki Person dengan ditambahkan atributnya sendiri yaitu employeeId (ID Pegawai) dan position (posisi dalam pekerjaan). Seperti kelas sebelumnya, kelas ini juga memiliki metode konstruktor, setter, dan getter, lalu ditambah dengan showDetails untuk menampilkan data pegawainya.
 3. Customer
    Selain Employee, Customer juga merupakan anak dari kelas Person yang juga mewarisi sifatnya. Namun, untuk kelas Customer atribut tambahannya adalah customerId (ID Customer), handphoneNumber (Nomor Handphone), dan favoriteGroup (Grup kesukaan customer)
 4. Membership
