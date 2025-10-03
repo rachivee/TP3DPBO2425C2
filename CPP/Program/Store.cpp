@@ -68,7 +68,7 @@ class Store {
                 cout << "ID\tPhone Number\tName\tAge\tFav. Group" << endl; // Print headers for customer details
                 cout << "--------------------------------------------------" << endl;
                 for (int i = 0; i < customers.size(); i++) { // Loop through customers vector and print each customer
-                    customers[i].printCustomer();
+                    customers[i].showDetails();
                 }
                 cout << "--------------------------------------------------" << endl;
             }
@@ -94,7 +94,7 @@ class Store {
                 cout << "ID\tName\tJenis Kelamin\tUmur\tPosition" << endl; // Print headers for employee details
                 cout << "--------------------------------------------------------" << endl;
                 for (int i = 0; i < employees.size(); i++) { // Loop through employees vector and print each employee
-                    employees[i].printEmployee();
+                    employees[i].showDetails();
                 }
                 cout << "--------------------------------------------------------" << endl;
             }
