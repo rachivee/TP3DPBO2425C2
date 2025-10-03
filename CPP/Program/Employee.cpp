@@ -43,7 +43,7 @@ class Employee : public Person {
         }
 
         // For printing employee details
-        void printEmployee() {
+        void showDetails() override {
             cout << getEmployeeId() << "\t" << getName() << "\t" << getGender() << "\t" << getAge() << "\t" << getPosition() << endl;
         }
 };
