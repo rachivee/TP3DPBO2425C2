@@ -23,7 +23,11 @@ Pada tugas praktikum ini, saya membuat sebuah sistem informasi untuk sebuah toko
 7. Store,
     Kelas ini merupakan kelas yang mengelola interaksi antara kelas-kelas lain. Kelas ini menggunakan konsep composite dimana kelas Store menggunakan kelas lain yaitu Album, Employee, Customer, dan Vip. Selain itu, di dalam kelas ini terdapat 1 atribut tambahan yaitu address. Lalu, terdapat beberapa metode seperti setter dan getter, addAlbum, addCustomer, addEmployee, addVIPCustomer, dan printAllData (menampilkan seluruh detail data dari album, customer, employee, dan vip customer).
 
+# Desain Program
+
 Seperti yang disebutkan di uraian setiap kelasnya, kode program ini menggunakan beberapa konsep OOP, seperti Inheritence yang dalam kode ini menggunakan Single Inheritence untuk kelas Employee dan Customer yang mewarisi sifat dari Person, lalu Multiple inheritence dimana kelas Vip mewarisi sifat dari dua kelas sekaligus yaitu Customer dan Membership. Selain itu, penerapan konsep composition dalam kode program ini ditunjukkan di kelas Store yang dimana sebuah kelas terdiri dari atau memiliki objek dari kelas lain sehingga menciptakan hubungan has-a. Di dalam kelas Store terdapat sekumpulan objek Album, Customer, Employee, dan Vip. Lalu yang terakhir merupakan konsep Abstract Class yaitu pada kelas Person, kelas ini memiliki metode showDetails yang memaksa setiap kelas turunannya untuk mendefinisikan cara showDetails tersebut masing-masing, tetapi dalam kode program ini, konsep Abstract class hanya digunakan di bahasa C++ saja.
+
+# Alur Kode
 
 Alur dari kode program ini adalah dimulai dengan membuat kelas-kelas yang dibutuhkan dimana di masing-masing sc kelas terdapat atribut yang dimiliki kelas tersebut, lalu dilanjut dengan metode-metode yang dimiliki, seperti konstruktor yang digunakan untuk membuat objek, setter yang digunakan untuk mengatur nilai suatu atribut dari suatu kelas, dan getter yang digunakan untuk mendapatkan nilai suatu atribut dari suatu kelas. Selain itu di beberapa kelas terdapat metode untuk menampilkan detail data dari objek tersebut. 
 
