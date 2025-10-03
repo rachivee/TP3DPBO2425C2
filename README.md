@@ -30,3 +30,16 @@ Alur dari kode program ini adalah dimulai dengan membuat kelas-kelas yang dibutu
 Selanjutnya, di dalam kelas Store memiliki atribut berupa objek dari kelas lain yang berbentuk vector dan satu atribut khusus lain. Lalu, terdapat metode untuk menambahkan data ke dalam vector album, customer, employee, dan vip customer. Diakhiri dengan metode untuk menampilkan semua data dari berbagai kelas.
 
 Pada main.cpp, dibuat objek dari kelas store yang selanjutnya mengatur nilai address dari objek tersebut. Setelah itu, akan ditampilkan format output dan menjalankan metode print all data yang dimana setiap vectornya masih kosong. Lalu, data sample mulai dimasukkan dan kembali ditampilkan menggunakan metode print all data untuk menunjukkan perbedaan output jika vector memiliki objek di dalamnya atau tidak.
+
+# Dokumentasi
+
+C++
+<img width="1920" height="1080" alt="Screenshot (703)" src="https://github.com/user-attachments/assets/230132f1-1a38-493e-bcfe-842191e1db2d" />
+<img width="1920" height="1080" alt="Screenshot (704)" src="https://github.com/user-attachments/assets/905818aa-aa99-4eda-ab2a-a572aed6ab45" />
+
+Python
+<img width="1920" height="1080" alt="Screenshot (705)" src="https://github.com/user-attachments/assets/5545cb70-08a3-41da-943e-8921b2b973da" />
+<img width="1920" height="1080" alt="Screenshot (706)" src="https://github.com/user-attachments/assets/2d1f2b91-ab91-42e6-af25-53c627159956" />
+
+
+
