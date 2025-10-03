@@ -35,6 +35,20 @@ Selanjutnya, di dalam kelas Store memiliki atribut berupa objek dari kelas lain 
 
 Pada main.cpp, dibuat objek dari kelas store yang selanjutnya mengatur nilai address dari objek tersebut. Setelah itu, akan ditampilkan format output dan menjalankan metode print all data yang dimana setiap vectornya masih kosong. Lalu, data sample mulai dimasukkan dan kembali ditampilkan menggunakan metode print all data untuk menunjukkan perbedaan output jika vector memiliki objek di dalamnya atau tidak.
 
+# Implementasi Multilevel Inheritence pada Java
+Sesuai dengan yang terdapat pada diagram dan penjelasan-penjelasan sebelumnya bahwa dalam kode program ini terdapat implementasi dari konsep multilevel inheritence, tetapi pada bahasa pemrograman Java, konsep ini tidak ada atau tidak bisa digunakan secara langsung. Namun, ada beberapa cara untuk tetap dapat menggunakan konsep multilevel inheritence ini pada bahasa pemrograman Java, salah satunya adalah dengan menggunakan konsep composition.
+
+Pada kode program yang saya buat menggunakan bahasa Java, saya menerapkan konsep composition, yang dikenal juga dengan prinsip has-a relationship. Konsep ini berarti bahwa suatu kelas memiliki objek dari kelas lain sebagai atributnya, menunjukkan bahwa kelas tersebut "memiliki" entitas lainnya sebagai bagian dari strukturnya.
+
+Dalam implementasinya, saya membuat sebuah kelas bernama VIPCustomer yang merupakan turunan dari kelas Customer, artinya VIPCustomer menggunakan konsep inheritance atau is-a relationship terhadap Customer. Ini artinya bahwa setiap objek VIPCustomer adalah juga seorang Customer, tetapi dengan fitur tambahan atau perilaku yang lebih spesifik.
+
+Selain pewarisan tersebut, di dalam kelas VIPCustomer, saya juga menambahkan sebuah atribut yang bertipe Membership. Kelas Membership ini bukan merupakan superclass dari VIPCustomer, melainkan sebuah kelas terpisah yang merepresentasikan status keanggotaan pelanggan. 
+
+Dengan menggabungkan konsep inheritance dan composition, konsep multilevel inheritence yang tidak bisa digunakan dalam bahasa pemrograman Java dapat tetap diimplementasikan secara tidak langsung.
+
+<img width="1920" height="1080" alt="Screenshot (707)" src="https://github.com/user-attachments/assets/d18b3042-90f0-41ee-a5c4-7a463a3ea769" />
+
+
 # Dokumentasi
 
 C++
