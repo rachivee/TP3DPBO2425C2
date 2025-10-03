@@ -8,19 +8,19 @@ Saya Farah Maulida dengan NIM 2410024 mengerjakan Tugas Praktikum 3 dalam mata k
 
 Pada tugas praktikum ini, saya membuat sebuah sistem informasi untuk sebuah toko yang menjual barang berupa album fisik dari suatu grup KPOP. Gambar di atas merupakan diagram yang menggambarkan struktur dari keseluruh sistem yang dibuat dengan menggunakan konsep pemrograman berorientasi objek untuk mendefinisikan class dan hubungannya.
 
-1. Person
+1. Person,
    Kelas ini merupakan superclass yang memiliki 3 atribut yaitu name (nama), age (umur), dan gender (jenis kelamin) disertai dengan metode konstruktor untuk membuat objek baru, setter dan getter untuk mengatur dan mengambil nilai atribut, lalu terdapat showDetails yang membuat kelas ini merupakan abstract class.
-2. Employee
+2. Employee,
    Kelas ini merupakan anak yang mewarisi sifat dari kelas Person yang artinya Employee memiliki atribut yang dimiliki Person dengan ditambahkan atributnya sendiri yaitu employeeId (ID Pegawai) dan position (posisi dalam pekerjaan). Seperti kelas sebelumnya, kelas ini juga memiliki metode konstruktor, setter, dan getter, lalu ditambah dengan showDetails untuk menampilkan data pegawainya.
-3. Customer
+3. Customer,
    Selain Employee, Customer juga merupakan anak dari kelas Person yang juga mewarisi sifatnya. Namun, untuk kelas Customer atribut tambahannya adalah customerId (ID Customer), handphoneNumber (Nomor Handphone), dan favoriteGroup (Grup kesukaan customer)
-4. Membership
+4. Membership,
    Kelas ini merupakan kelas yang menggambarkan tingkat keanggotaan dari seseorang, dengan memiliki 2 atribut yaitu level (tingkat keanggotaannya, seperti Silver atau Gold) dan discount (besar diskon yang didapat). Pada kelas ini terdapat metode konsruktor, setter, dan getter, lalu dilengkapi dengan showMembership untuk menampilkan detail datanya.
-5. Vip
+5. Vip,
     Kelas ini merupakan kelas yang termasuk ke dalam multiple inheritence atau pewarisan ganda yang mewarisi sifat dari dua kelas atau parent yaitu Customer dan Membership. Pada kelas ini mempunyai atribut dari kedua parentnya dan ditambah dengan 1 atribut khusus yaitu totalSpent. Kelas ini memiliki metodde seperti kelas lain yaitu konstruktor, setter, getter, dan printVIPCustomer.
-6. Album
+6. Album,
     Kelas ini merupakan kelas yang menggambarkan produk yang dijual di toko ini dengan 4 atribut yaitu title (judul album), group (nama grup atau artis penyanyi), price (harga satuan album), dan stock (jumlah ketersediaan barang).
-7. Store
+7. Store,
     Kelas ini merupakan kelas yang mengelola interaksi antara kelas-kelas lain. Kelas ini menggunakan konsep composite dimana kelas Store menggunakan kelas lain yaitu Album, Employee, Customer, dan Vip. Selain itu, di dalam kelas ini terdapat 1 atribut tambahan yaitu address. Lalu, terdapat beberapa metode seperti setter dan getter, addAlbum, addCustomer, addEmployee, addVIPCustomer, dan printAllData (menampilkan seluruh detail data dari album, customer, employee, dan vip customer).
 
 Seperti yang disebutkan di uraian setiap kelasnya, kode program ini menggunakan beberapa konsep OOP, seperti Inheritence yang dalam kode ini menggunakan Single Inheritence untuk kelas Employee dan Customer yang mewarisi sifat dari Person, lalu Multiple inheritence dimana kelas Vip mewarisi sifat dari dua kelas sekaligus yaitu Customer dan Membership. Selain itu, penerapan konsep composition dalam kode program ini ditunjukkan di kelas Store yang dimana sebuah kelas terdiri dari atau memiliki objek dari kelas lain sehingga menciptakan hubungan has-a. Di dalam kelas Store terdapat sekumpulan objek Album, Customer, Employee, dan Vip. Lalu yang terakhir merupakan konsep Abstract Class yaitu pada kelas Person, kelas ini memiliki metode showDetails yang memaksa setiap kelas turunannya untuk mendefinisikan cara showDetails tersebut masing-masing, tetapi dalam kode program ini, konsep Abstract class hanya digunakan di bahasa C++ saja.
